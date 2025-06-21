@@ -1,1 +1,35 @@
-<!DOCTYPE html><html><head><title>رفيق التوجيهي</title></head><body><h1>أهلاً بك في رفيق التوجيهي</h1></body></html>
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رفيق التوجيهي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>أهلًا بك في رفيق التوجيهي</h1>
+        <p>دعم دراسي ونفسي متكامل لطلاب التوجيهي في الأردن</p>
+    </header>
+    <main>
+        <section id="login">
+            <h2>تسجيل الدخول</h2>
+            <form>
+                <label>رقم الهاتف:</label>
+                <input type="text" placeholder="أدخل رقمك">
+                <label>الدولة:</label>
+                <select><option>الأردن</option></select>
+                <button type="submit">دخول</button>
+            </form>
+        </section>
+        <section id="chat">
+            <h2>مساعد الذكاء الاصطناعي</h2>
+            <div id="chat-box"></div>
+            <input type="text" id="chat-input" placeholder="اكتب رسالتك...">
+            <button onclick="sendMessage()">إرسال</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
